@@ -134,6 +134,8 @@ p, h2{
 
 #how-it-works {
     text-align: center;
+    padding: 10px;
+   
 }
 #how-it-works h2{
     padding-top: 10px;
@@ -147,9 +149,14 @@ p, h2{
     width: 33.3%;
 }
 
-.icon-box span{
+.icon-box {
+    padding: 30px;
+}
+
+
+
+.icon-box i{
     color: #FC997C;
-    font-size: 100px;
 }
 
 .icon-box h3{
@@ -379,13 +386,13 @@ p, h2{
 }
 
 
-.fab{
+#footer .fab{
     padding: 10px;
     font-size: 25px;
     border-radius: 50%;
 }
 
-.fab:hover{
+#footer .fab:hover{
     opacity: 0.7;
 }
 
