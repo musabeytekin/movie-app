@@ -304,3 +304,27 @@ p, h2{
     margin: 0;
     color: #fff;
 }
+
+.card{
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 10px 10px 40px rgba(52, 58, 64, 0.2);
+    transition: all .3s;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+.card-image{
+    max-height: 350px;
+}
+
+.card-body{
+    padding: 30px;
+}
+
+.img-fluid{
+    width: 100%;
+}
