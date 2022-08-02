@@ -139,10 +139,8 @@ p, h2{
 }
 
 .col-3 {
-    display: inline-block;
-    width: 30%;
-    margin: 12px;
-    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    width: 33.3%;
 }
 
 .icon-box span{
@@ -160,13 +158,14 @@ p, h2{
     font-size: 16px;
 }
 .col-2 {
-    display: inline-block;
-    width: calc(50% - 3px);
-    height: 350px;
+    float: left;
+    width: 50%;
 }
 
 .features__left{
-    background: url("../images/features.jpeg");
+    background: 
+    linear-gradient(to bottom, rgba(252, 153, 124, 0.2),rgba(250, 81, 30, 0.2)),
+    url('../images/features.jpeg');
     background-position: top center;
     background-size: cover;
 }
@@ -174,8 +173,13 @@ p, h2{
 .features__right{
     background-color: rgb(221, 212, 212);
     vertical-align: top;
-    padding: 35px;
+    padding: 40px;
     
+}
+
+.features__left,
+.features__right {
+    height: 350px;
 }
 
 .features__right h3{
@@ -204,6 +208,16 @@ p, h2{
 
 .clearfix::after{
     content: none;
+    display: block;
+    clear: both;
+}
+
+.row {
+    margin-top: 40px;
+}
+
+.row::after {
+    content: "";
     display: block;
     clear: both;
 }
@@ -313,6 +327,10 @@ p, h2{
     transition: all .3s;
 }
 
+.card-container{
+    padding: 10px;
+}
+
 .card:hover{
     transform: translateY(-10px);
 }
@@ -327,4 +345,61 @@ p, h2{
 
 .img-fluid{
     width: 100%;
+}
+
+#footer {
+    background-color: #2E4C6D;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+#footer a{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#footer ul{
+    margin: 0;
+    padding: 0;
+}
+
+#footer ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+#social-links{
+    text-align: right;
+}
+
+
+.fab{
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 50%;
+}
+
+.fab:hover{
+    opacity: 0.7;
+}
+
+.fa-facebook{
+    background-color: #3b5998;
+    color: white;
+}
+
+.fa-twitter{
+    background-color: #55acee;
+    color: white;
+}
+
+.fa-instagram{
+    background-color: #125688;
+    color: white;
+}
+
+#footer .footer__link:hover{ 
+    color: brown;
 }
