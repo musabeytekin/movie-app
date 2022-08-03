@@ -99,7 +99,7 @@ p, h2{
 #showcase {
     background: 
     linear-gradient(to bottom, rgba(252, 153, 124, 0.2),rgba(250, 81, 30, 0.2)),
-    url('../images/bg.jpeg');
+    url('../img/bg.jpeg');
     background-position: center;
     background-attachment: fixed;
     width: 100%;
@@ -176,7 +176,7 @@ p, h2{
 .features__left{
     background: 
     linear-gradient(to bottom, rgba(252, 153, 124, 0.2),rgba(250, 81, 30, 0.2)),
-    url('../images/features.jpeg');
+    url('../img/features.jpeg');
     background-position: top center;
     background-size: cover;
 }
