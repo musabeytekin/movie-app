@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    margin: 0;
+    font-size: 1.4rem;
+}
+
+.row{
+    margin-top: 40px;
+}
+
+.row::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.col-3 {
+    float: left;
+    width: 33.3%;
+}
+
+.col-2 {
+    float: left;
+    width: 50%;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.img-fluid {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    [class*="col-"]{
+        width: 100%;
+    }
+}
