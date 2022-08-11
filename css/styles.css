@@ -39,9 +39,7 @@ h2 {
     color: #2e4c6d;
 }
 
-.main-nav__item:last-child {
-    display: none;
-}
+
 
 @media (max-width: 600px) {
     .main-nav__item {
