@@ -1,7 +1,11 @@
 # Movie App 
 ## TV Shows & Films Site
-<img src="https://github.com/musabeytekin/images/blob/main/view/1.png" style="width: 600px;" alt="index page">
-<img src="https://github.com/musabeytekin/images/blob/main/view/2.png" style="width: 600px;" alt="index page">
-<img src="https://github.com/musabeytekin/images/blob/main/view/3.png" style="width: 600px;" alt="index page">
-<img src="https://github.com/musabeytekin/images/blob/main/view/4.png" style="width: 600px;" alt="index page">
-<img src="https://github.com/musabeytekin/images/blob/main/view/5.png" style="width: 600px;" alt="index page">
+
+
+
+İncelemek için:
+<br>
+<a href="https://mviapp.netlify.app">İncele</a>
+
+Proje taslak olarak hazırlanmıi olup gerçeği yansıtmamaktadır...
+
